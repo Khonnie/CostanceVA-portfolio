@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Costance Manake VA Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <div class="nav-container">
+      
+      <!-- Logo -->
+      <div class="logo">Costance Manake</div>
+
+      <!-- Desktop Menu -->
+      <div class="menu desktop-menu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="contact-btn">Contact</a>
+      </div>
+
+      <!-- Mobile Toggle Button -->
+      <button class="menu-toggle" id="menu-toggle">
+        ☰
+      </button>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact" class="btn">Contact</a>
+    </div>
+
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+ <section class="hero" id="home">
+  <div class="hero-container">
+
+    <!-- Left Content -->
+    <div class="hero-text">
+      <h1>
+        Your Trusted Virtual Assistant
+      </h1>
+
+      <p>
+        Empowering businesses with professional administrative support, organization, and efficiency. Let me handle the details while you focus on growth.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn one" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+          Get Started →
+        </button>
+
+        <button class="btn outline" onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">
+          View Services
+        </button>
+      </div>
+    </div>
+
+    <!-- Right Image -->
+    <div class="hero-image">
+      <div class="image-wrapper">
+        <img 
+          src="images/connie.jpg"
+          alt="Professional virtual assistant"
+        />
+      </div>
+
+      <!-- Experience Card -->
+      <div class="experience-card">
+        <p class="years">6+</p>
+        <p class="label">Skills Mastered</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES SECTION -->
+ <section class="services" id="services">
+  <div class="services-container">
+
+    <!-- Heading -->
+    <div class="services-header">
+      <h2>Services Offered</h2>
+      <p>Comprehensive support tailored to your business needs</p>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="services-grid">
+
+      <!-- Service 1 -->
+      <div class="service-card">
+        <div class="icon-box">📅</div>
+        <h3>Calendar Management</h3>
+        <p>Efficient scheduling, appointment coordination, and calendar organization to keep you on track.</p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card">
+        <div class="icon-box">📧</div>
+        <h3>Email Management</h3>
+        <p>Professional email handling, inbox organization, and timely responses to keep communications flowing.</p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card">
+        <div class="icon-box">📄</div>
+        <h3>Document Preparation</h3>
+        <p>Expert document creation, formatting, and editing for presentations, reports, and correspondence.</p>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="service-card">
+        <div class="icon-box">📞</div>
+        <h3>Customer Support</h3>
+        <p>Professional client communication and support to maintain excellent customer relationships.</p>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="service-card">
+        <div class="icon-box">🗄️</div>
+        <h3>Data Entry & Management</h3>
+        <p>Accurate data entry, database management, and organization to streamline your operations.</p>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="service-card">
+        <div class="icon-box">&lt; &gt;</div>
+        <h3>Web Development</h3>
+        <p>Building Responsive Web Pages, Landing Pages, and web applications to help businesses establish their online presence.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+
+<section class="skills" id="skills">
+  <div class="skills-container">
+
+    <!-- Header -->
+    <div class="skills-header">
+      <h2>Skills & Expertise</h2>
+      <p>Proven proficiency in essential business tools and practices</p>
+    </div>
+
+    <!-- Skills Grid -->
+    <div class="skills-grid">
+
+      <!-- Skill -->
+        <div class="skill">
+        <div class="skill-top">
+          <span>HTML5 & CSS3</span>
+          <span class="percent">80%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Javascript</span>
+          <span class="percent">70%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>React</span>
+          <span class="percent">50%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 50%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Bootstrap & Tailwindcss</span>
+          <span class="percent">50%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 50%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Figma & Wordpress</span>
+          <span class="percent">50%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 50%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Microsoft Office Suite</span>
+          <span class="percent">95%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 95%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Google Workspace</span>
+          <span class="percent">90%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Project Management</span>
+          <span class="percent">88%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 88%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Communication</span>
+          <span class="percent">95%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 95%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Time Management</span>
+          <span class="percent">92%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 92%;"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-top">
+          <span>Data Analysis</span>
+          <span class="percent">85%</span>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width: 85%;"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+ <section class="testimonials" id="testimonials">
+  <div class="testimonials-container">
+
+    <!-- Header -->
+    <div class="testimonials-header">
+      <h2>Client Testimonials</h2>
+      <p>What my clients say about working together</p>
+    </div>
+
+    <!-- Grid -->
+    <div class="testimonials-grid">
+
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+
+        <p class="testimonial-text">
+          “Working with Costance has transformed how I manage my time. Professional, reliable, and incredibly organized.”
+        </p>
+
+        <div class="client">
+          <img src="images/tina.jpg" alt="Peace Kayesu">
+          <div>
+            <p class="name">Peace Kayesu</p>
+            <p class="role">CEO, Kaynela Farms Ltd</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+
+        <p class="testimonial-text">
+          “Outstanding service! The attention to detail and proactive approach has made a huge difference to our operations.”
+        </p>
+
+        <div class="client">
+          <img src="images/kev.jpg" alt="Kevin Mwanje">
+          <div>
+            <p class="name">Kevin Mwanje</p>
+            <p class="role">Founder, Avirooms</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+
+        <p class="testimonial-text">
+          “I cannot recommend highly enough. Efficient, professional, and always goes above and beyond expectations.”
+        </p>
+
+        <div class="client">
+          <img src="images/dag.jpg" alt="Douglas Bulafu">
+          <div>
+            <p class="name">Douglas Bulafu</p>
+            <p class="role">Director, Elevate Research and Health Services</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+
+    <!-- Header -->
+    <div class="contact-header">
+      <h2>Get In Touch</h2>
+      <p>Ready to streamline your business? Let’s connect!</p>
+    </div>
+
+    <div class="contact-content">
+
+      <!-- Left Info -->
+      <div class="contact-info">
+
+        <div class="info-item">
+          <div class="icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>mcostance@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+256-759322015</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>Remote (Available Worldwide)</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon">💼</div>
+          <div>
+            <h4>LinkedIn</h4>
+            <p>https://www.linkedin.com/in/costance-manake-a4429895</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Form -->
+      <form class="contact-form">
+        
+        <label>Name</label>
+        <input type="text" placeholder="Your name" required />
+
+        <label>Email</label>
+        <input type="email" placeholder="your@email.com" required />
+
+        <label>Message</label>
+        <textarea placeholder="Tell me about your needs..." rows="5"></textarea>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>&copy; 2026 Costance Manake Virtual Assistant Portfolio. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
