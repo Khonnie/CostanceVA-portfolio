@@ -394,16 +394,16 @@
       </div>
 
       <!-- Right Form -->
-      <form class="contact-form">
+      <form class="contact-form" id="contact-form">
         
         <label>Name</label>
-        <input type="text" placeholder="Your name" required />
+        <input type="text" placeholder="Your name" name="name" />
 
         <label>Email</label>
-        <input type="email" placeholder="your@email.com" required />
+        <input type="email" placeholder="your@email.com" name="email" required />
 
         <label>Message</label>
-        <textarea placeholder="Tell me about your needs..." rows="5"></textarea>
+        <textarea name="message" placeholder="Tell me about your needs..." rows="5"></textarea>
 
         <button type="submit">Send Message</button>
 
@@ -417,6 +417,13 @@
 <footer class="footer">
     <p>&copy; 2026 Costance Manake Virtual Assistant Portfolio. All rights reserved.</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  (function(){
+    emailjs.init("5EJ89AYbdfOOscP1m");
+  })();
+</script>
 <script src="script.js"></script>
 </body>
 </html>

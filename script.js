@@ -24,3 +24,30 @@ window.addEventListener("load", () => {
     }, 300);
   });
 });
+
+// Emailjs
+
+  const form = document.getElementById("contact-form");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_q7fvqtf",
+      "template_9zkyxlm",
+      this
+    ).then(
+      function() {
+        alert("Message sent successfully!");
+        form.reset();
+      },
+      function(error) {
+        alert("Failed to send message. Try again.");
+        console.log(error);
+      }
+    );
+  });
+
+
+
+
